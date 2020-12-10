@@ -2,7 +2,7 @@
 
 重写了样式，支持php7+，做了适当的修改，仅此而已。
 
-本项目来自[marekrei的encode-explorer项目](https://github.com/marekrei/encode-explorer)
+本项目来自[marekrei/encode-explorer](https://github.com/marekrei/encode-explorer)。
 
 ## 截图
 
