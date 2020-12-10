@@ -1948,7 +1948,7 @@ class Dir
 	//
 	// Constructor
 	//
-	function Dir($name, $location)
+	function __construct($name, $location)
 	{
 		$this->name = $name;
 		$this->location = $location;
@@ -1994,7 +1994,7 @@ class File
 	//
 	// Constructor
 	//
-	function File($name, $location)
+	function __construct($name, $location)
 	{
 		$this->name = $name;
 		$this->location = $location;
