@@ -963,6 +963,11 @@ table th a {
     display: block;
 }
 
+.upload_dirname,
+.upload_file {
+    width: auto;
+}
+	
 @media screen and (max-width:600px) {
     table {
         border: 0;
@@ -2579,7 +2584,7 @@ class EncodeExplorer
 	{
 		?>
 		<div id="login">
-		<form enctype="multipart/form-data" action="<?php print $this->makeLink(false, false, null, null, null, ""); ?>" method="post">
+		<form enctype="multipart/form-data" action="<?php print $this->makeLink(false, false, null, null, null, ""); ?>" method="post" style="width: 50%;">
 		<?php
 		if(GateKeeper::isLoginRequired())
 		{
