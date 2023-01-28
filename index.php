@@ -2627,8 +2627,8 @@ if(($this->getConfig('log_file') != null && strlen($this->getConfig('log_file'))
 	|| (GateKeeper::isDeleteAllowed()))
 {
 ?>
-<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/picnic/6.5.3/picnic.min.css">
-<script type="text/javascript" src="//cdnjs.loli.net/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//lib.baomitu.com/picnic/6.5.3/picnic.min.css">
+<script type="text/javascript" src="//lib.baomitu.com/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function() {
